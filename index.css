@@ -1,0 +1,117 @@
+body{
+  background: linear-gradient(to right, #010201 0%, #030201 16%, #110500 71%, #7D1900 100%);
+  color: white;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+#logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+  background:linear-gradient(to bottom, #F77D14 0%, #EBAD09 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#logo span{
+  width: 2rem;
+  height: 2rem;
+  background:linear-gradient(to bottom, #FA9837 0%, #FAC619 100%);
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
+#logo span img {
+  width: 1rem;
+  height: 1rem;
+}
+
+header ul li, footer ul li {
+  cursor: pointer;
+}
+header ul li:hover, footer ul li:hover{
+opacity: 0.4;}
+header ul li:active, footer ul li:active{
+opacity: 0.7;}
+
+.header-btn {
+  display: flex;
+align-items: center;
+gap: 0.5rem;
+padding: 0.3rem 0.5rem;
+border-radius: 5px;
+}
+#sign-up{
+  border: 1px solid #F87715;
+  background-color: transparent;
+  color: #F87715;
+}
+
+#login{
+  background: linear-gradient(to top, #F97920 30%, #F9BD24 80%);
+  border: none;
+  color: white;
+}
+section{
+  height:30rem;
+  position: relative;
+}
+#section-2 img{
+  width: 100%;
+  height: 100%;
+object-fit: contain;
+float: right;
+margin-right: -174px;
+}
+.dollars{
+  align-self: center;
+  position: absolute;
+  left: 10%;
+  margin-bottom: 3rem;
+
+}
+.heading{
+  margin-top: 2rem;
+}
+.ticket{
+  background: linear-gradient(to right, #F3640B 0%, #F16209 16%, #C33409 76%, #B62809 100%);
+  border: none;
+  width: 13rem;
+  height: 3rem;
+  border-radius: 3px;
+  color: white;
+  font-size: 1rem;
+}
+h1{
+  background: linear-gradient(to bottom, #FD7000 0%, #FA6100 19%, #F55E00 34%, #EF5A00 54%, #F35B00 68%, #F15900 78%, #EE5700 89%, #EA5900 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+h2{
+  background: linear-gradient(to right, #F89000 0%, #FB9800 28%, #F79000 67%, #F38D00 82%, #F38B00 100% );
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+.win-big{
+  margin-top: 1rem;
+  color:  #FEDCA7;
+}
+p{
+  letter-spacing: 1px;
+  font-family: "Inter";
+  font-size: 1.2rem;
+}
+
+footer{
+  padding-left: 2vw;
+}
