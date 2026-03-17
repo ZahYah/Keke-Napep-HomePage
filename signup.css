@@ -1,0 +1,47 @@
+section{
+  outline: 1px solid green;
+}
+
+#create-game{
+  /* height: auto; */
+  background-color: white;
+  color: black;
+  width: 70%;
+  padding: 2vw;
+  border-radius: 5px;
+}
+#create-game form {
+  margin-top: 1rem;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 7px;
+}
+form div div{
+  border:  1px solid grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 0.5rem;
+  width: 100%;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+form div input{
+  border: none;
+}
+.game{
+   background:linear-gradient(to left, #FA9C35 0%, #FABF1E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 10px;
+}
