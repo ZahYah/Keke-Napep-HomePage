@@ -1,9 +1,4 @@
-section{
-  outline: 1px solid green;
-}
-
 #create-game{
-  /* height: auto; */
   background-color: white;
   color: black;
   width: 70%;
@@ -44,4 +39,54 @@ form div input{
   font-size: 1.2rem;
   font-weight: 500;
   margin: 10px;
+}
+.winning{
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  padding: 2rem;
+  height: 12rem;
+  border-radius: 5px;
+  /* width:26rem; */
+  margin-top: 1rem;
+}
+h6{
+  margin-top: -0.8rem;
+  text-align: center;
+}
+ol{
+  margin-top: 0.5rem;
+  height: 60%;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+ol li{
+  margin-bottom: 0.5rem;
+}
+ol li span{
+  display: block;
+  font-weight: normal;
+}
+ol li:first-child{
+  color: blue;
+}
+ol li:nth-child(2){
+  color: lawngreen;
+}
+ol li:last-child{
+  color: orangered;
+}
+.bonus{
+  background:linear-gradient(#24BF6B 0%, #3A84F1 100%);
+  color: white;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 20rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  gap: 0.6rem;
+}
+.bold{
+  font-weight: 600;
+  text-align: center;
 }
